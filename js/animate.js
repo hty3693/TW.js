@@ -41,7 +41,7 @@
 
         var start = getPropertyValue(element_css, propertyName),
         currentTime = 0,
-        change = value - start;
+        change = value - start,
         cycle = 1000 / 60;
 
         var animate = function(){
